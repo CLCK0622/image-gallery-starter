@@ -57,9 +57,9 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               </span>
               <span className="absolute left-0 right-0 bottom-0 h-[400px] bg-gradient-to-b from-black/0 via-black to-black"></span>
             </div>
-            <Logo />
-            <h1 className="mt-8 mb-4 text-base font-bold uppercase tracking-widest">
-              Album for 2507
+            {/* <Logo /> */}
+            <h1 className="mt-8 mb-4 text-3xl font-bold uppercase tracking-widest">
+              2507 Album
             </h1>
             <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
               Hi there! We are Class 2507 from HSEFZ, pleased to meet you! 
@@ -70,6 +70,14 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
             >
               Visit our home page
             </a>
+            <hr />
+            <div id='toc'>
+                <p className='font-bold'>Index</p>
+                <ul>
+                    <li><a>2022</a></li>
+                    <li><a>2023</a></li>
+                </ul>
+            </div>
           </div>
           {images.map(({ id, public_id, format, blurDataUrl }) => (
             <Link

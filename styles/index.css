@@ -7,3 +7,7 @@
     clip-path: inset(0.6px);
   }
 }
+
+#toc {
+    @apply rounded-lg border-2 border-zinc-700 w-64 h-32 border-dashed;
+}
