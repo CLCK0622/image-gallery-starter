@@ -118,7 +118,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         </a>
         . Photos organized by{' '}
         <a
-          href="https://www.newrevmedia.com/"
+          href="https://github.com/aeilot"
           target="_blank"
           className="font-semibold hover:text-white"
           rel="noreferrer"
